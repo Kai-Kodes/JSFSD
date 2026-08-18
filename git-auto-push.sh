@@ -9,5 +9,5 @@ while true; do
         git push origin main
     fi
 
-    sleep 60
+    sleep 300
 done
