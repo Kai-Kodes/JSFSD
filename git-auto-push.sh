@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/redsheronin/Files/Coding/College/FSD/CSE-21/JS/ || exit 1
+cd "$(dirname "$0")" || exit 1
 
 while true; do
     if [[ -n $(git status --porcelain) ]]; then
