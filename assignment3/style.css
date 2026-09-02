@@ -49,3 +49,16 @@ button{
     margin: 10px;
 }
 
+.booking-card {
+    display: none;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 400px;
+}
+
+.booking-card h2 {
+    text-align: center;
+}
