@@ -4,5 +4,18 @@ html{
 
 .main{
     background-color: #535353;
+    min-height: 600px;
+    max-width: 600px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fle
+}
+
+img{
+    border-radius: 50%;
 }
 
