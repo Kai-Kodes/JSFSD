@@ -1,21 +1,31 @@
 html{
     background-color: #1d1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main{
     background-color: #535353;
     min-height: 600px;
-    max-width: 600px;
+    min-width: 600px;
 }
 
 .head{
     display: flex;
     justify-content: center;
     align-items: center;
-    fle
+    padding: 20px;
 }
 
 img{
     border-radius: 50%;
 }
 
+.infohead{
+    background-color: #1d1b1b;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
