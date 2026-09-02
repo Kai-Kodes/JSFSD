@@ -22,7 +22,7 @@ img{
     border-radius: 50%;
 }
 
-.infohead{
+.infohead, .businfo{
     background-color: #1d1b1b;
     margin: 10px;
     padding: 10px;
