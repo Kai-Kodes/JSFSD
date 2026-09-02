@@ -15,3 +15,8 @@ function f2() {
         }, 1000);
     })
 }
+
+f1().then(f2)
+    .catch((err) => {
+        console.log(err)
+    })
