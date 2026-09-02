@@ -14,26 +14,44 @@
         </div>
         <p class="infohead">User Info</p>
         <form action="" method="get">
+            <div>
             <label for="name">user name</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="name" id="name" placeholder="Enter your name"></div>
+            <div>
             <label for="age">Age</label>
             <input type="number" name="age" id="age" placeholder="Enter your age">
+            </div>
+            <div>
             <label for="aadhar">Aadhaar Number</label>
             <input type="text" name="adhar" id="adhar" placeholder="Enter your Aadhaar number">
+            </div>
+            <div>
             <label for="city">City</label>
             <select name="city" id="city">
                 <option value="delhi">Delhi</option>
                 <option value="mumbai">Mumbai</option>
                 <option value="bangalore">Bangalore</option>
             </select>
+            </div>
+            <div>
             <label for="date">Journey Date</label>
             <input type="date" name="date" id="date">
+            </div>
+        </form>
             <p class="businfo">Bus Info</p>
+
+            <form action="" method="get">
+                <div cla>
             <input type="radio" name="bus" id="ac" value="ac">
             <label for="ac">AC</label>
             <input type="radio" name="bus" id="nonac" value="nonac">
             <label for="nonac">Non-AC</label>
-            number of seats our 
+            </div>
+            <div>
+            <label for="seats">Number of Seats</label>
+            <input type="number" name="seats" id="seats" min="1" max="5"></div>
+
+            <input type="submit" value="Submit">
 
         </form>
     </div>
