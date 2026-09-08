@@ -17,6 +17,12 @@ function f2() {
 }
 
 async function test(){
+    try {
     await f1();
     await f2();
+    }
+    catch (err) {
+        console.log("error", err)
+    }
 }
+test();
